@@ -19,7 +19,7 @@ from pyspark.sql import Row
 
 ####################################################################################################
 
-# check for invalid values, round timestamp to closest minute, return only [time, y, x, mmsi]
+# check for invalid values, round timestamp to closest minute, return only [time, sog, y, x]
 def filter(line):
     x = 0
     y = 0
